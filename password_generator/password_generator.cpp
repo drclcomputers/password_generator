@@ -1,3 +1,4 @@
+#include<iostream>
 #include<fstream>
 #include<cstdlib>
 #include<ctime>
@@ -10,6 +11,7 @@ int passgen() {
 }
 
 void put_in_file(char x) {
+	cout << (char)x;
 	file << (char)x;
 }
 
